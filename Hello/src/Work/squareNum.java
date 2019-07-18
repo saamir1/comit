@@ -1,3 +1,5 @@
+package Work;
+
 public class squareNum {
     public static void main(String[] args) {
         int sq = 0;
