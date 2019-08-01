@@ -1,0 +1,67 @@
+*,html,body
+ {
+margin:0;
+padding:0;
+
+}
+header{
+background-color=deepskyblue;
+
+}
+h1 ul li {
+  display:inline-table
+}
+
+h1 ul li nav{
+  float: left;
+}
+h1 nav ul li
+{
+scroll-padding-left: 0.5px;
+font-size: 5px;
+font-weight:normal;
+color: aqua;
+transition: all 0.5s ease-in;
+
+}
+h2 {
+  display: block;
+  font-size: 4em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+header
+{
+background-color:deepskyblue;
+height: 112px;
+line-height: 112px;
+}
+ul li
+{
+display:inline-block
+
+}
+header nav
+{
+float:right;
+}
+
+
+header nav ul li a
+{
+padding-right: 10px;
+font-weight:bold;
+color:white;
+transition: all 0.5s ease-in;
+
+}
+header nav ul li a:hover{
+text-decoration:none;
+color:red;
+
+
+
+}
