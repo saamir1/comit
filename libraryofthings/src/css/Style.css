@@ -2,14 +2,14 @@
  {
 margin:0;
 padding:0;
-
+background: red;
 }
 header{
-background-color=deepskyblue;
+background-color:deepskyblue;
 
 }
 h1 ul li {
-  display:inline-table
+  display:inline-table;
 }
 
 h1 ul li nav{
