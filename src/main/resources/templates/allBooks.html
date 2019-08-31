@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymleaf.org">
+<head>
+    <div th:replace="headerImport.html"></div>
+</head>
+<body>
+<div th:replace="navbar"></div>
+<div class="container">
+    <div class="container">
+        <div class="jumbotron">
+    <h1>Here all books available in Library</h1>
+</div>
+    </div>
+<table class="table table-hover">
+    <tr>
+        <th>Book</th>
+        <th>Authors</th>
+        <th>Release Date</th>
+        <th>Publisher</th>
+        <th>Stock</th>
+    </tr>
+     <tr th:each="book:${book}">
+
+         <td th:text="${book.bookTitle}"></td>
+         <td th:text="${book.authors}"></td>
+         <td th:text="${#dates.format(book.publishDate,'dd MMM yyyy')}"></td>
+         <td th:text="${book.publisher}"></td>
+         <td th:text="${book.stock}"></td>
+     </tr>
+</table>
+</div>
+
+
+</body>
+</html>
